@@ -2,9 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
-
 }
+
 .top_header{
 	color: #fff;
 	margin:auto;
@@ -32,9 +31,14 @@ ul{
 	
 	align-items: center;
 }
+
 nav ul li{
 	margin: 0 20px;	
-	color: #6f6262 !important;
+}
+
+nav ul li:hover{
+
+	background-color:#c4c4c4b2 !important;
 }
 
 .main{
@@ -284,8 +288,9 @@ nav ul li{
 }
 
 .ContactUS button{
+	color:#fff;
 	border-radius: 10px;
-	background-color: #b53c9b;
+	background-color: #ff2143;
 	border: none;
 	width: 120px;
 	height: 60px;
@@ -294,6 +299,11 @@ nav ul li{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.ContactUS button:hover{
+	background-color: #dfdfdf;
+	transition: 0.6s;
+	color: #000000;
+}	
 
 .ContactUS{
 	margin-bottom: 50px;
