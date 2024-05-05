@@ -1,7 +1,7 @@
 const express=require('express');
 const path =require('path')
 const app = express(); 
-const port = 6969;
+const port = 4000;
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -15,6 +15,9 @@ app.get('/', (req, res) => {
   });
   app.get('/signup', (req, res) => {
     res.render('signup'); // Assuming Login.ejs exists in views directory
+  });
+app.get('/pricing', (req, res) => {
+    res.render('pricing'); // Assuming Login.ejs exists in views directory
   });
 
 app.listen(port, () => {

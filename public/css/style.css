@@ -285,6 +285,21 @@ nav ul li:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.more_about button {
+	color: #ff6161;
+	border-radius: 10px;
+	background-color: #ffffff;
+	border: none;
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .ContactUS button{
@@ -309,3 +324,6 @@ nav ul li:hover{
 	margin-bottom: 50px;
 	position: relative;
 }
+
+
+
